@@ -1,10 +1,15 @@
 # secomp_backend_help_RS
-Projeto desenvolvido tem como objetivo ser um serviço destinado a doadores e a empresas ou órgãos que estão coletando essas doações para o Rio Grande do Sul.
+Projeto elaborado para o minicurso de Backend em Python na Semana da Computação UNEMAT. O curso terá apenas 6 horas mas abordará os principais conceitos da área de desenvolvimento Backend. Durante toda essa caminhada iremos colocar nossas mão no teclado e desenvolver uma aplicação que possa ajudar a maximizar o número de doações que são destinadas as áreas afetadas do Rio Grande do Sul.
 
 ### Visão geral
-Construir a parte de Backend da aplicação Help_RS em Python. Essa aplicação deve fornecer aos Doadores informações de como e onde estar entregando suas doações.
+Help_RS tem como objetivo ser um serviço destinado a doadores e a empresas ou órgãos que estão coletando essas doações para o Rio Grande do Sul. O desenvolvimento baseia-se na construção do Backend dessa aplicação. 
 
-### Diagrama de Caso de Uso
+### Funcionalidades
+- fornecer aos Doadores informações de como e onde estar entregando suas doações;
+- As empresas e órgãos devem se cadastrar ao sistema e realizar o login;
+- As empresas e órgãos realizam o cadastro das informações referentes às doações.
+
+### Casos de Uso
 ```mermaid
 flowchart LR
     usuario --> id1
