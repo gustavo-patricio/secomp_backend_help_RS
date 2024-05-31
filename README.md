@@ -22,6 +22,45 @@ flowchart LR
     end
 ```
 
+### Diagrama de Entidade Relacionamento 
+```mermaid
+erDiagram
+    Usuario{
+        id integer
+        email varchar
+        password varchar
+
+    }
+
+    PontoColeta{
+        id integer
+        nome varchar
+        hr_inicio time
+        hr_fim time
+        recebendo_doacao boolean
+        endereco_id integer
+    }
+
+    Doacao{
+        id integer
+        descricao text
+        tipo_itens varchar
+        status varchar
+    }
+
+    Endereco{
+        id integer
+        rua varchar
+        numero varchar
+        bairro varchar
+    }
+
+    Usuario ||--|| PontoColeta: possui
+    PontoColeta ||--o{ Doacao : places
+    PontoColeta ||--|| Endereco: localiza-se
+    
+```
+
 # Contribuições
 
 Solicitações pull são bem-vindas. Para mudanças importantes, abra um [issue](https://github.com/gustavo-patricio/secomp_backend_help_RS/issues/) primeiro
