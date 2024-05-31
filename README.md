@@ -21,3 +21,12 @@ flowchart LR
     id3([Mantem ponto de entrega])
     end
 ```
+
+# Contribuições
+
+Solicitações pull são bem-vindas. Para mudanças importantes, abra um [issue](https://github.com/gustavo-patricio/secomp_backend_help_RS/issues/) primeiro
+para discutir o que você gostaria de mudar.
+
+# Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
