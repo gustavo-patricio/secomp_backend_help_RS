@@ -38,7 +38,6 @@ erDiagram
         hr_inicio time
         hr_fim time
         recebendo_doacao boolean
-        endereco_id integer
     }
 
     Doacao{
@@ -46,6 +45,7 @@ erDiagram
         descricao text
         tipo_itens varchar
         status varchar
+        ponto_coleta_id integer
     }
 
     Endereco{
@@ -53,6 +53,8 @@ erDiagram
         rua varchar
         numero varchar
         bairro varchar
+        ponto_coleta_id integer
+
     }
 
     Usuario ||--|| PontoColeta: possui
