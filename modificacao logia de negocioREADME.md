@@ -40,11 +40,10 @@ erDiagram
         recebendo_doacao boolean
     }
 
-    Doacao{
+    RecebimentoDoacao{
         id integer
         descricao text
         tipo_itens varchar
-        status varchar
         ponto_coleta_id integer
     }
 
