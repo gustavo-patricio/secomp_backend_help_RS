@@ -57,7 +57,7 @@ erDiagram
     }
 
     Usuario ||--|| PontoColeta: possui
-    PontoColeta ||--o{ Doacao : places
+    PontoColeta ||--o{ RecebimentoDoacao : places
     PontoColeta ||--|| Endereco: localiza-se
     
 ```
